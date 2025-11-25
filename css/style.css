@@ -6,7 +6,7 @@
  
 /* Assigning all the same properties to the body */
 body{
-    height: 100vh;
+    
     display: flex;
     justify-content: center;
     background-image: linear-gradient(70deg,#242424,#000000);
@@ -17,7 +17,7 @@ body{
 
 /* Police globale pour cohérence */
 body, html {
-    font-family: 'Wingdings', 'Segoe UI Symbol', 'Arial', sans-serif;
+    font-family:Segoe UI Symbol', 'Arial', sans-serif;
 }
  
 .container{
@@ -27,7 +27,7 @@ body, html {
     border-radius: 5%;
     text-align: center;
     /* Wingdings peut ne pas être installé sur tous les systèmes. Ajouter des fallbacks. */
-    font-family: 'Wingdings', 'Segoe UI Symbol', 'Arial', sans-serif;
+    font-family:'Segoe UI Symbol', 'Arial', sans-serif;
     font-size: 18px;
     box-shadow:0 0px 10px rgb(255, 0, 0);
 }
