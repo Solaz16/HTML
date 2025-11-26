@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
  
-/* Assigning all the same properties to the body */
+
 body{
     
     display: flex;
@@ -15,7 +15,7 @@ body{
     padding-top: 90px;
 }
 
-/* Police globale pour cohérence */
+
 body, html {
     font-family:Segoe UI Symbol', 'Arial', sans-serif;
 }
@@ -26,7 +26,7 @@ body, html {
     overflow: hidden;
     border-radius: 5%;
     text-align: center;
-    /* Wingdings peut ne pas être installé sur tous les systèmes. Ajouter des fallbacks. */
+    
     font-family:'Segoe UI Symbol', 'Arial', sans-serif;
     font-size: 18px;
     box-shadow:0 0px 10px rgb(255, 0, 0);
@@ -59,8 +59,7 @@ body, html {
     font-size: 1em;
     color: #ff0000;
 }
- 
-/* Navigation centré */
+
 .site-nav{
     width: auto;
     display: flex;
@@ -92,7 +91,7 @@ body, html {
     color: #ff0000;
 }
 
-/* Styles pour le portfolio (missions, compétences, contact) */
+
 .portfolio {
     width: 100%;
     padding: 2em 0;
@@ -149,7 +148,7 @@ body, html {
     color: #999999;
 }
 
-/* Styles pour le formulaire */
+
 .contact-form {
     margin-top: 2em;
     display: flex;
@@ -190,6 +189,7 @@ body, html {
     list-style: none;
     padding: 0;
     display: flex;
+    justify-content: center;
     gap: 1.5em;
     margin: 1em 0;
 }
