@@ -26,6 +26,7 @@ body, html {
     overflow: hidden;
     border-radius: 5%;
     text-align: center;
+    margin: 16px;
     
     font-family:'Segoe UI Symbol', 'Arial', sans-serif;
     font-size: 18px;
@@ -70,6 +71,7 @@ body, html {
     left: 50%;
     transform: translateX(-50%);
     z-index: 1000;
+    border-radius: 5%;
 }
 
 .site-nav .nav-menu{
@@ -100,7 +102,8 @@ body, html {
 .portfolio .container {
     width: 90%;
     max-width: 900px;
-    margin: 32px auto;
+    margin: 16px auto;
+    border-radius: 5%;
 }
 
 .portfolio .content, .missions, .competences, .contact {
@@ -109,7 +112,7 @@ body, html {
 
 .missions-list, .skills-list {
     color: #706d6d;
-    margin: 24px 0;
+    margin: 16px 0;
     padding-left: 24px;
     list-style: disc;
 }
