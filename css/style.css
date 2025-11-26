@@ -33,13 +33,13 @@ body, html {
 }
  
 .user-image{
-    padding: 3em 0;
+    padding: 48px 0;
     background-image: linear-gradient(70deg,#000000,#242424);
 }
  
 .user-image img{
-    width: 7em;
-    height: 7em;
+    width: 112px;
+    height: 112px;
     border-radius: 5%;
     box-shadow:  0 0px 10px rgb(255, 0, 0) ;
     object-fit: cover;
@@ -47,16 +47,16 @@ body, html {
  
 .content{
     color: #706d6d;
-    padding: 2.2em;
+    padding: 35px;
 }
  
 .name{
-    font-size: 1.5em;
+    font-size: 24px;
     text-transform: uppercase;
 }
  
 .username{
-    font-size: 1em;
+    font-size: 16px;
     color: #ff0000;
 }
 
@@ -64,7 +64,7 @@ body, html {
     width: auto;
     display: flex;
     justify-content: center;
-    padding: 0.25rem 0.5rem;
+    padding: 4px 8px;
     position: fixed;
     top: 16px;
     left: 50%;
@@ -75,7 +75,7 @@ body, html {
 .site-nav .nav-menu{
     list-style: none;
     display: flex;
-    gap: 1.5rem;
+    gap: 24px;
     margin: 0;
     padding: 0;
 }
@@ -84,7 +84,7 @@ body, html {
     text-decoration: none;
     color: #ffffff;
     font-weight: 600;
-    padding: 0.25rem 0.5rem;
+    padding: 4px 8px;
 }
 
 .site-nav .nav-link:hover{
@@ -94,13 +94,13 @@ body, html {
 
 .portfolio {
     width: 100%;
-    padding: 2em 0;
+    padding: 32px 0;
 }
 
 .portfolio .container {
     width: 90%;
     max-width: 900px;
-    margin: 2em auto;
+    margin: 32px auto;
 }
 
 .portfolio .content, .missions, .competences, .contact {
@@ -109,33 +109,33 @@ body, html {
 
 .missions-list, .skills-list {
     color: #706d6d;
-    margin: 1.5em 0;
-    padding-left: 1.5em;
+    margin: 24px 0;
+    padding-left: 24px;
     list-style: disc;
 }
 
 .missions-list li, .skills-list li {
-    margin-bottom: 1em;
+    margin-bottom: 16px;
     line-height: 1.6;
 }
 
 .portfolio h2 {
     color: #706d6d;
-    margin-bottom: 1.5em;
-    font-size: 1.3em;
+    margin-bottom: 24px;
+    font-size: 21px;
     text-transform: uppercase;
 }
 
 .portfolio h3 {
     color: #706d6d;
-    margin-top: 1.5em;
-    margin-bottom: 1em;
-    font-size: 1.1em;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-size: 18px;
 }
 
 .portfolio p {
     color: #706d6d;
-    margin-bottom: 1em;
+    margin-bottom: 16px;
     line-height: 1.6;
 }
 
@@ -150,10 +150,10 @@ body, html {
 
 
 .contact-form {
-    margin-top: 2em;
+    margin-top: 32px;
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: 16px;
 }
 
 .contact-form label {
@@ -165,20 +165,20 @@ body, html {
     background-color: #1a1a1a;
     color: #706d6d;
     border: 1px solid #706d6d;
-    padding: 0.5em;
+    padding: 8px;
     font-family: inherit;
-    font-size: 1em;
+    font-size: 16px;
 }
 
 .contact-form button {
     background-color: #706d6d;
     color: #000000;
     border: none;
-    padding: 0.75em;
+    padding: 12px;
     font-weight: 600;
     cursor: pointer;
-    font-size: 1em;
-    border-radius: 0.25em;
+    font-size: 16px;
+    border-radius: 4px;
 }
 
 .contact-form button:hover {
@@ -190,8 +190,8 @@ body, html {
     padding: 0;
     display: flex;
     justify-content: center;
-    gap: 1.5em;
-    margin: 1em 0;
+    gap: 24px;
+    margin: 16px 0;
 }
 
 .social-links li {
@@ -199,5 +199,23 @@ body, html {
 }
 
 .social-links a {
-    color: #706d6d;
+    color: #ff00008c;
 }
+
+.project-card {    
+    padding: 24px;
+    margin-bottom: 24px;
+    border-radius: 8px;
+}
+.project-card h3 {
+    color: #706d6d;
+    margin-bottom: 8px;
+    font-size: 19px;
+}
+
+.project-card p {
+    color: #0706d6d;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
