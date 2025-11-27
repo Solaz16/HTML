@@ -13,7 +13,6 @@ body{
     justify-content: center;
     background-image: linear-gradient(70deg,#242424,#000000);
     align-items: center;
-    /* laisser de l'espace en haut pour la navigation fixe */
     padding-top: 90px;
 }
 
